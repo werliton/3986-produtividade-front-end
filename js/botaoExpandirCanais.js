@@ -1,12 +1,16 @@
-const canaisExtras = document.querySelectorAll(".menu-lateral__canal.colapsado");
+const canaisExtras = document.querySelectorAll(
+  ".menu-lateral__canal--colapsado"
+);
 
-const botaoExpandirCanais = document.querySelector(".menu-lateral__botao-alternar-canais");
+const botaoExpandirCanais = document.querySelector(
+  ".menu-lateral__botao-alternar-canais"
+);
 
 let canaisEstaoExpandidos = false;
 
 botaoExpandirCanais.addEventListener("click", () => {
   canaisExtras.forEach((canal) => {
-    canal.classList.toggle("colapsado");
+    canal.classList.toggle("menu-lateral__canal--colapsado");
   });
 
   if (!canaisEstaoExpandidos) {

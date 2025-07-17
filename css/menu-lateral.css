@@ -115,7 +115,7 @@
 }
 
 .menu-lateral__icone-alternar-canais--rotacionado {
-  transform: rotateX(0.5turn)
+  transform: rotateX(0.5turn);
 }
 
 .menu-lateral__icone-videos::before {
@@ -130,7 +130,7 @@
   content: url("../img/modo_claro/menu_lateral/sports_esports.svg");
 }
 
-@media(min-width: 834px) {
+@media (min-width: 834px) {
   .menu-lateral {
     font-size: 16px;
     width: 74px;
@@ -170,7 +170,7 @@
   }
 }
 
-@media(min-width: 1440px) {
+@media (min-width: 1440px) {
   .menu-lateral {
     width: 239px;
     overflow: scroll;
@@ -199,7 +199,7 @@
     align-items: center;
   }
 
-  .menu-lateral__canal.colapsado {
+  .menu-lateral__canal--colapsado {
     display: none;
   }
 

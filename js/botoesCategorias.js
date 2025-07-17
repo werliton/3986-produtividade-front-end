@@ -14,9 +14,12 @@ function filtrarPorCategoria(filtro) {
   const videos = document.querySelectorAll(".video-principal");
 
   for (const video of videos) {
-    const categoria = video.querySelector(".video-principal__categoria").textContent.toLowerCase();
+    const categoria = video
+      .querySelector(".video-principal__categoria")
+      .textContent.toLowerCase();
 
-    const mostrarVideo = valorFiltro === 'Tudo' || categoria.includes(valorFiltro);
+    const mostrarVideo =
+      valorFiltro === "Tudo" || categoria.includes(valorFiltro);
 
     video.classList.toggle("video-principal--escondido", !mostrarVideo);
   }
@@ -24,8 +27,12 @@ function filtrarPorCategoria(filtro) {
 
 function atualizarEstadosDosBotoes(categoriaSelecionada) {
   botoesCategorias.forEach((botao) => {
-    const botaoFoiSelecionado = botao.getAttribute("name") === categoriaSelecionada;
+    const botaoFoiSelecionado =
+      botao.getAttribute("name") === categoriaSelecionada;
 
-    botao.classList.toggle("selecionado", botaoFoiSelecionado);
-  })
+    botao.classList.toggle(
+      "secao-categorias__botao--selecionado",
+      botaoFoiSelecionado
+    );
+  });
 }
