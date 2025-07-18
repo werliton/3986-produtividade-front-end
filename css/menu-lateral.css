@@ -130,6 +130,83 @@
   content: url("../img/modo_claro/menu_lateral/sports_esports.svg");
 }
 
+/* Modo escuro */
+.dark-mode .menu-lateral__icone-inicio::before {
+  content: url("../img/modo_escuro/menu_lateral/home.svg");
+}
+
+.dark-mode .menu-lateral__icone-explorar::before {
+  content: url("../img/modo_escuro/menu_lateral/explore.svg");
+}
+
+.dark-mode .menu-lateral__icone-shorts::before {
+  content: url("../img/modo_escuro/menu_lateral/airplay.svg");
+}
+
+.dark-mode .menu-lateral__icone-inscricoes::before {
+  content: url("../img/modo_escuro/menu_lateral/subscriptions.svg");
+}
+
+.dark-mode .menu-lateral__icone-biblioteca::before {
+  content: url("../img/modo_escuro/menu_lateral/video_library.svg");
+}
+
+.dark-mode .menu-lateral__icone-historico::before {
+  content: url("../img/modo_escuro/menu_lateral/history.svg");
+}
+
+.dark-mode .menu-lateral__icone-relogio::before {
+  content: url("../img/modo_escuro/menu_lateral/history_toggle_off.svg");
+}
+
+.dark-mode .menu-lateral__icone-like::before {
+  content: url("../img/modo_escuro/menu_lateral/thumb_up_alt.svg");
+}
+
+.dark-mode .menu-lateral__icone-alura::before {
+  content: url("../img/modo_escuro/menu_lateral/Avatar_Alura.png");
+}
+
+.dark-mode .menu-lateral__icone-gaveta::before {
+  content: url("../img/modo_escuro/menu_lateral/Avatar_Gaveta.png");
+}
+
+.dark-mode .menu-lateral__icone-ballerini::before {
+  content: url("../img/modo_escuro/menu_lateral/Avatar_Rafa.png");
+}
+
+.dark-mode .menu-lateral__icone-iamarino::before {
+  content: url("../img/modo_escuro/menu_lateral/Avatar_Atila.png");
+}
+
+.dark-mode .menu-lateral__icone-souto::before {
+  content: url("../img/modo_escuro/menu_lateral/Avatar_Souto.png");
+}
+
+.dark-mode .menu-lateral__icone-nerd::before {
+  content: url("../img/modo_escuro/menu_lateral/Avatar_Jovem_Nerd.png");
+}
+
+.dark-mode .menu-lateral__icone-deschamps::before {
+  content: url("../img/modo_escuro/menu_lateral/Avatar_Deschamps.png");
+}
+
+.dark-mode .menu-lateral__icone-alternar-canais::before {
+  content: url("../img/modo_escuro/menu_lateral/keyboard_arrow_down.svg");
+}
+
+.dark-mode .menu-lateral__icone-videos::before {
+  content: url("../img/modo_escuro/menu_lateral/ondemand_video.svg");
+}
+
+.dark-mode .menu-lateral__icone-filmes::before {
+  content: url("../img/modo_escuro/menu_lateral/movie.svg");
+}
+
+.dark-mode .menu-lateral__icone-jogos::before {
+  content: url("../img/modo_escuro/menu_lateral/sports_esports.svg");
+}
+
 @media (min-width: 834px) {
   .menu-lateral {
     font-size: 16px;

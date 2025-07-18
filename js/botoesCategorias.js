@@ -19,7 +19,7 @@ function filtrarPorCategoria(filtro) {
       .textContent.toLowerCase();
 
     const mostrarVideo =
-      valorFiltro === "Tudo" || categoria.includes(valorFiltro);
+      valorFiltro === "tudo" || categoria.includes(valorFiltro);
 
     video.classList.toggle("video-principal--escondido", !mostrarVideo);
   }

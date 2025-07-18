@@ -93,6 +93,23 @@
   padding: 13px 30px 13px 33px;
 }
 
+/* Estilo para modo escuro */
+.dark-mode .cabecalho__videos {
+  background-image: url("../img/modo_escuro/menu_superior/video_call.svg");
+}
+
+.dark-mode .cabecalho__apps {
+  background-image: url("../img/modo_escuro/menu_superior/apps.svg");
+}
+
+.dark-mode .cabecalho__notificacoes {
+  background-image: url("../img/modo_escuro/menu_superior/notifications.svg");
+}
+
+.dark-mode .cabecalho__avatar {
+  background-image: url("../img/modo_escuro/menu_superior/Avatar.png");
+}
+
 .cabecalho__switch {
   position: relative;
   display: inline-block;
@@ -115,7 +132,7 @@
   right: 0;
   bottom: 0;
   background-color: var(--cinza-claro);
-  transition: .4s;
+  transition: 0.4s;
   border-radius: 34px;
 }
 
@@ -127,15 +144,15 @@
   left: 4px;
   bottom: 4px;
   background-color: var(--branco);
-  transition: .4s;
+  transition: 0.4s;
   border-radius: 50%;
 }
 
-.cabecalho__switch-input:checked+.cabecalho__switch-slider {
+.cabecalho__switch-input:checked + .cabecalho__switch-slider {
   background-color: var(--azul-destaque-dark);
 }
 
-.cabecalho__switch-input:checked+.cabecalho__switch-slider::before {
+.cabecalho__switch-input:checked + .cabecalho__switch-slider::before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
